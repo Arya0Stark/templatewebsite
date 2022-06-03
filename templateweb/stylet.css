@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    background-color: beige;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    
+    
+}
+
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li
+{
+    display:inline;
+
+}
+#navbar a
+{
+    float:right;
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 15px;
+    
+}
+
+#navbar a:hover{
+    color:green;
+}
+
+
+#showcase,#navbar,#mainheader,#button
+{
+    background: url(https://cutewallpaper.org/21/4k-forest-wallpapers/Pine-Forest-Wallpaper-1920X1080-Soft-Wallpapers.jpg) no-repeat center center fixed;
+    
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#showcase
+{
+    
+    min-height: 300px;
+    margin-bottom: 30px;
+    
+}
+#showcase h1
+{
+    color:white;
+    font-size:35px;
+    line-height: 1.6em;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+#button
+{
+    
+    padding-bottom: 70px;
+    padding-left: 150px;
+}
+#button a{
+    color: white;
+    background: black;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+#button a:hover{
+    color:grey;
+}
+#main
+{
+    float:left;
+    width:70%;
+    
+    padding:0 30px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 30px;
+}
+#sidebar
+{
+    float:right;
+    width:30%;
+   
+   color: black;
+   padding:0 30px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    
+}
+#socialmedia
+{
+    margin: 18px;
+    
+}
+#socialmedia a{
+   
+    color: black;
+    background: beige;
+    border-radius: 7px;
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    
+}
+
+#socialmedia a:hover{
+    color:blueviolet;
+    border:2px solid blueviolet;
+}
+#mainfooter
+{
+    
+    color: gray;
+    text-align: center;
+    padding:0.2px;
+
+    margin-top:150px;
+}
+
+@media(max-width:600px)
+{
+    #main
+    {
+        width: 100%;
+        float: none;
+
+    }
+    #sidebar
+    {
+        width: 100%;
+        float: none;
+
+    }
+}
